@@ -37,7 +37,7 @@ class Flower(BasePlant):
                f"height - {self.height}, Watering - {self.watering()}" # return печатается только первый
 
 
-class Cactus(Plants): # наследник, наследует методы от Plants
+class Cactus(BasePlant): # наследник, наследует методы от Plants
 
     def watering(self):
         return "I don't need to be watered"
